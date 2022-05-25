@@ -1,0 +1,127 @@
+@font-face{
+	font-family: arial;
+	src: url(fuente.woff);
+}
+
+body{
+	margin: 0;
+	font-family: arial;
+}
+
+nav{
+	background: #16A085;
+}
+.menu{
+	text-align: right;
+	margin: 0;
+}
+.menu li{
+display: inline-block;
+}
+.menu a{
+	padding: 20px;
+	color:  white;
+	text-decoration: none;
+	display: block;
+}
+.menu a:hover{
+	background: #1ABC9C;
+}
+.gris{
+	background: #333333;
+	overflow: hidden;
+	color: white;
+	text-aling: center;
+	padding: 90px;
+}
+.hierba{
+	height: 400px;
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoV0bj9umgZmsSaAFQuTe_pCLAn8hCO8ZyQw&usqp=CAU);
+}
+
+.docs_col{
+	width: 1024px;
+	margin: auto;
+}
+
+.docs_col .col_left{
+	width: 600px;
+	vertical-align: top;
+
+}
+.docs_col .col_right{
+	width: 400px;
+	vertical-align: top;
+	padding-left: 100px;
+	box-sizing: border-box;
+}
+.docs_col .col_right ul{
+	padding: 0px;
+}
+.docs_col .col_right a{
+color: #333333;
+}
+.docs_col .col_right a: hover{
+text-decoration: none;
+}
+.docs_col .col_right li{
+	list-style: none;
+}
+.tres_col{
+
+	color: white;
+	width: 1024px;
+	margin: auto;
+}
+
+.tres_col a{
+	color: white;
+}
+
+.col{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.tres_col .col{
+	width: 330px;
+
+}
+
+.tres_col_wrapper{
+			background: #1E1B1A;
+}
+.tres_col_wrapper ul{
+	padding: 0px;
+}
+.tres_col_wrapper li{
+list-style: none;
+margin-bottom: 10px;
+}
+.footer{
+	background: #16A085;
+	padding: 60px;
+	text-align: center;
+	color: white;
+}
+.figure{
+	margin: 0;
+	display: inline-block;
+	border: 1px;
+	position: absolute;
+}
+.figcaption{
+	position: relative;
+}
+.contenedor{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#blog article {
+		margin: 10px;
+}
+#blog img{
+	widht: 100%;
+	max-width: 280px;
+}
